@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+.h3,h4, h5,h6{
+
+    font-family: 'Ubuntu', sans-serif;
+
+}
+a{
+    
+    font-family: 'Ubuntu', sans-serif;  
+}
+/* END  */
+.sec0{
+    background: black;
+    padding: 10px 50px;
+    color:black;
+   
+}
+.sec0 nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec0 ul{
+    display: flex;
+    list-style: none;
+}
+
+ul li a{
+text-decoration: none;
+color:white;
+padding: 23px 30px;
+}
+ul li a:hover{
+    background:red;
+}
+.logo img{
+    width:175px;
+    
+}
+
+
+
+
+/* sec0  end*/
+.sec1{
+   background-image: url(../picture/slider1.jpg);">
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+.sce1container{
+height: 600px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+
+}
+.sec1 h1{
+    color: aqua;
+    font-size: 50px;
+    
+}
+.sec1 h3{
+    color: white;
+    font-size: 30px;
+   
+     
+     padding-bottom: 40px;
+     padding-top: 20px;
+}
+.btn1{
+    background-color: aqua;
+    text-decoration: none;
+    color:white ;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px 30px 30px 30px;
+    font-family: 'Nunito', sans-serif;
+}
+.btn2{
+    background-color:blue;
+    text-decoration: none;
+    color:white ;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px 30px 30px 30px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+/* sce1 */
+.sce2{
+    background: white;
+   
+    text-align: center;
+}
+.sce2 h1{
+    color: aqua;
+    padding-top: 80px;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+.sce2 p{
+    color: black;
+    padding: 50px 50px 50px 50px;
+    padding-top: 9px;
+    font-size: 18px;
+    line-height: 30px;
+}
+/* end sce2 */
+.sce3{
+    padding:0px 50px ;
+}
+
+.s3box{
+    display: flex;
+}
+.sce3left{
+    flex-basis: 50%;
+}
+
+.sce3right{
+    flex-basis:50%;
+    margin-bottom: 50px;
+}
+.s31{
+    font-size: 40;
+    color: black;
+}
+.h1{
+    color:black;
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-top: 84px;
+}
+.p{
+    line-height: 30px;
+    
+}
+ul{
+
+    line-height: 30px;
+    list-style: none;
+}   
+
+ ul li i{
+     color:yellow ;
+     font-size: 20px;
+     padding-right: 10px;
+     margin-bottom: 15px;
+    
+ }  
+
+.s3btn{
+    background-color: aqua;
+    text-decoration: none;
+    color: white;
+    padding: 2px 27px 5px 28px;
+    border-radius: 20px 20px;
+    margin-top: 15px;
+    display: inline-block;
+    box-shadow: 3px 2px 0px 0px gray;
+}
+/* sce3 */
+.s4topbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 50px;  
+}
+.s4bottombox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 50px;  
+    margin-top: 30px;
+}
+
+.box{
+    flex-basis: 32%;
+    background-color: papayawhip;
+    border: 1px solid black;
+    text-align: center;
+    padding: 50px;
+}
+.sce4h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.s4btn{
+    background-color: aqua;
+    text-decoration: none;
+    color: white;
+    padding: 2px 27px 5px 28px;
+  
+    margin-top: 15px;
+    display: inline-block;
+    box-shadow: 3px 2px 0px 0px gray;
+}
+/* sc4 end */
+
+.se5{
+    background-image: url(../picture/bg-section-traveler.jpg);">
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sce5container{
+    height: 250px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.se5 h1{
+    color:white;
+    padding-top: 80px;
+    font-size: 40px;
+    padding-bottom: 15px;
+
+}
+.btn5{
+    background-color: aqua;
+    text-decoration: none;
+    color:white ;
+    padding: 10px 30px 10px 30px;
+    margin-top: 15px;
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+}
+/* sc5 end */
+
+.stopbox1 img{
+    height: 200px;
+    border: 4px solid aqua;
+    margin top: 30px;
+    margin: 10px;
+}
+
+.stopbox1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 340px; 
+}
+.sce6h1{
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.stopbox1{
+    flex-basis: 35%;
+}
+
+.s6btn{
+    color: black;
+    background:white;
+    margin:10px;
+    padding: 6px 30px;
+    text-decoration: none;
+    font-family: bold;
+    display: inline-block;
+    margin-top: 7px;
+    margin-left: 40px;
+    border-radius: 18px;
+    border: 2px solid aqua;
+
+}
+ 
+.box2{
+   margin-top: 15PX;
+    text-align: center;
+    margin-bottom: 15PX;
+}
+.sce7{
+    background: white;
+   
+    text-align: center;
+}
+/* SCE6 END */
+.sce7 h1{
+    color: black;
+    padding-top: 80px;
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+.sce7 p{
+    color: black;
+    padding: 50px 50px 50px 50px;
+    padding-top: 9px;
+    font-size: 18px;
+    line-height: 40px;
+}
+a:hover{
+
+    background-color: black;
+}
+/* end sce7 */
+
+.sec8{
+
+    padding: 0px 50px;
+}
+
+
+
+/* sec8 */
+.sec8 form{
+    width: 500px;
+    margin: auto;
+}
+.footer{
+    background: black;
+    color: white;
+    padding: 30px 100px;
+ text-align: center;
+ margin-top: 100px;
+}
+.sec8 form input{
+    width: 100%;
+    padding: 20px 15px;
+    margin: 30px;
+    border: 1px solid aqua;
+    border-radius: 20px;
+}
+.sec8  form input:focus{
+    outline: none;
+}
+.sec8 form textarea{
+    width: 100%;
+    padding: 20px 15px;
+    margin: 30px;
+    border: 1px solid aqua;
+    border-radius: 20px;
+}
+.sec8 form textarea:focus{
+    outline: none;
+}
+
+#submit-btn{
+width: 150px;
+background: aqua;
+color: black;
+
+}
+
+
+
+/* footer end */
+
+
